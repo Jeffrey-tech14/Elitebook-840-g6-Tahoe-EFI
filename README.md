@@ -152,10 +152,6 @@ ForbiddenItlwm 0.5.4 provides native-style Wi-Fi, AirDrop, and Continuity suppor
 - [RealtekUVCFix](https://github.com/trungkiengrxer/RealtekUVCFix)
 - [MyKextInstaller](https://github.com/laobamac/MyKextInstaller)
 
-## Images
-
-![EFI or macOS hardware screenshot](Images/Screenshot%202026-11-21%20at%2010.48.50.png)
-
 ## Credits
 
 - qqaoshi888/TGLDmicEx and labrouss/TGLDmic
