@@ -9,7 +9,7 @@
 | Component        | Details                                                                        |
 | ---------------- | ------------------------------------------------------------------------------ |
 | CPU              | Intel Core i5-8365U, Whiskey Lake, 4 cores / 8 threads, 1.6 GHz base           |
-| GPU              | Intel UHD Graphics 620, 1536 MB dynamic VRAM, 1080p touchscreen, Metal 3       |
+| GPU              | Intel UHD Graphics 620, 1536 MB dynamic VRAM, 1080p, Metal 3                   |
 | RAM              | 12 GB                                                                          |
 | Laptop           | HP EliteBook 840 G6                                                            |
 | SMBIOS           | MacBookPro16,3                                                                 |
