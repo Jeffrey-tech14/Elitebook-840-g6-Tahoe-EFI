@@ -5,25 +5,25 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>TGLDmic</string>
+	<string>TGLDmicJK</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.labrouss.TGLDmic</string>
+	<string>com.jk.TGLDmicJK</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundleName</key>
-	<string>TGLDmic</string>
+	<string>TGLDmicJK</string>
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>0.6.4</string>
+	<string>0.6.5</string>
 	<key>CFBundleVersion</key>
-	<string>0.6.4</string>
+	<string>0.6.5</string>
 	<key>IOKitPersonalities</key>
 	<dict>
 		<key>TGLDmicEarly</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.labrouss.TGLDmic</string>
+			<string>com.jk.TGLDmicJK</string>
 			<key>IOClass</key>
 			<string>TGLDmic</string>
 			<key>IOMatchCategory</key>
@@ -36,7 +36,7 @@
 		<key>TGLDmic</key>
 		<dict>
 			<key>CFBundleIdentifier</key>
-			<string>com.labrouss.TGLDmic</string>
+			<string>com.jk.TGLDmicJK</string>
 			<key>IOClass</key>
 			<string>TGLDmic</string>
 			<key>IOMatchCategory</key>

@@ -2,24 +2,24 @@
 
 **Working OpenCore EFI for macOS Tahoe 26.7.3 (25G342). Everything on this build works, including AirDrop, iMessage, FaceTime, and the internal digital microphone.**
 
-![macOS desktop](Images/Screenshot%202026-11-21%20at%2011.08.37.png)
+![macOS desktop](Images/Screenshot%202026-11-26%20at%2009.18.46.png)
 
 ## Hardware
 
-| Component | Details |
-|---|---|
-| CPU | Intel Core i5-8365U, Whiskey Lake, 4 cores / 8 threads, 1.6 GHz base |
-| GPU | Intel UHD Graphics 620, 1536 MB dynamic VRAM, 1080p touchscreen, Metal 3 |
-| RAM | 12 GB |
-| Laptop | HP EliteBook 840 G6 |
-| SMBIOS | MacBookPro16,3 |
-| Audio codec | Realtek ALC215 (`alcid=18`) |
+| Component        | Details                                                                        |
+| ---------------- | ------------------------------------------------------------------------------ |
+| CPU              | Intel Core i5-8365U, Whiskey Lake, 4 cores / 8 threads, 1.6 GHz base           |
+| GPU              | Intel UHD Graphics 620, 1536 MB dynamic VRAM, 1080p touchscreen, Metal 3       |
+| RAM              | 12 GB                                                                          |
+| Laptop           | HP EliteBook 840 G6                                                            |
+| SMBIOS           | MacBookPro16,3                                                                 |
+| Audio codec      | Realtek ALC215 (`alcid=18`)                                                    |
 | Audio controller | Intel 8086:9DC8, Cannon Point-LP cAVS 1.8 with Intel DSP and digital mic array |
-| Ethernet | Intel I219-LM (8086:15BD), IntelMausi 1.0.8 |
-| Wi-Fi | Intel AX200 (8086:2723) |
-| Bluetooth | Intel Bluetooth plus IntelBTPatcher stack |
-| Storage | SK hynix SC311 SATA 256 GB |
-| Camera | USB UVC, VID 0x0408 / PID 0x5343 |
+| Ethernet         | Intel I219-LM (8086:15BD), IntelMausi 1.0.8                                    |
+| Wi-Fi            | Intel AX200 (8086:2723)                                                        |
+| Bluetooth        | Intel Bluetooth plus IntelBTPatcher stack                                      |
+| Storage          | SK hynix SC311 SATA 256 GB                                                     |
+| Camera           | USB UVC, VID 0x0408 / PID 0x5343                                               |
 
 ## What works
 
@@ -64,37 +64,37 @@ The `-itlawdl*` arguments configure ForbiddenItlwm's AWDL behavior for AirDrop.
 
 ## Kexts
 
-| Kext | Version |
-|---|---|
-| Lilu | 1.7.2 |
-| VirtualSMC | 1.3.8 |
-| SMCProcessor | 1.3.8 |
-| SMCBatteryManager | 1.3.8 |
-| SMCSuperIO | 1.3.8 |
-| SMCLightSensor | 1.3.8 |
-| WhateverGreen | 1.7.1 |
-| AppleALC | 1.9.8 |
-| CPUFriend | 1.2.7 |
-| ECEnabler | 1.0.4 |
-| RestrictEvents | 1.1.6 |
-| RTCMemoryFixup | 1.0.7 |
-| AMFIPass | 1.4.1 |
-| USBToolBox | 1.2.0 |
-| UTBMap | custom USB map |
-| VoodooPS2Controller | 2.3.7 |
-| VoodooI2C | 2.9.1 |
-| VoodooI2CHID | 2.9.1 |
-| VoodooI2CSynaptics | 2.9.1 |
-| VoodooGPIO | included with VoodooI2C |
-| VoodooInput | included with VoodooI2C |
-| IntelMausi | 1.0.8 |
-| ForbiddenItlwm | 0.5.4 |
-| IntelBluetoothFirmware | 2.5.3 |
-| IntelBTPatcher | 2.5.3 |
-| BlueToolFixup | 2.7.2 |
-| BTLEAdvFixup | 0.9.1 |
-| TGLDmic | 0.6.4 patched |
-| RealtekUVCFix | 0.1.0 patched |
+| Kext                   | Version                 |
+| ---------------------- | ----------------------- |
+| Lilu                   | 1.7.2                   |
+| VirtualSMC             | 1.3.8                   |
+| SMCProcessor           | 1.3.8                   |
+| SMCBatteryManager      | 1.3.8                   |
+| SMCSuperIO             | 1.3.8                   |
+| SMCLightSensor         | 1.3.8                   |
+| WhateverGreen          | 1.7.1                   |
+| AppleALC               | 1.9.8                   |
+| CPUFriend              | 1.2.7                   |
+| ECEnabler              | 1.0.4                   |
+| RestrictEvents         | 1.1.6                   |
+| RTCMemoryFixup         | 1.0.7                   |
+| AMFIPass               | 1.4.1                   |
+| USBToolBox             | 1.2.0                   |
+| UTBMap                 | custom USB map          |
+| VoodooPS2Controller    | 2.3.7                   |
+| VoodooI2C              | 2.9.1                   |
+| VoodooI2CHID           | 2.9.1                   |
+| VoodooI2CSynaptics     | 2.9.1                   |
+| VoodooGPIO             | included with VoodooI2C |
+| VoodooInput            | included with VoodooI2C |
+| IntelMausi             | 1.0.8                   |
+| ForbiddenItlwm         | 0.5.4                   |
+| IntelBluetoothFirmware | 2.5.3                   |
+| IntelBTPatcher         | 2.5.3                   |
+| BlueToolFixup          | 2.7.2                   |
+| BTLEAdvFixup           | 0.9.1                   |
+| TGLDmicJK              | 0.6.5 patched           |
+| RealtekUVCFix          | 0.1.0 patched           |
 
 ## Installation notes
 
